@@ -1,0 +1,39 @@
+{
+  "name": "heartcoin-server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js dev"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "audit-log": "^0.9.1",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "4.9.0",
+    "http-status": "^1.0.1",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.0.1",
+    "koa": "^2.3.0",
+    "koa-better-body": "^3.0.4",
+    "koa-combine-routers": "^0.1.1",
+    "koa-context-validator": "^0.4.1",
+    "koa-error": "^3.1.0",
+    "koa-jwt": "^3.2.2",
+    "koa-logger": "^3.1.0",
+    "koa-passport": "^4.0.1",
+    "koa-router": "^7.2.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.12.0",
+    "node-promise": "^0.5.12",
+    "node-uuid": "^1.4.8"
+  },
+  "devDependencies": {
+    "babel-eslint": "file:../node_modules/babel-eslint",
+    "eslint": "file:../node_modules/eslint",
+    "eslint-config-airbnb": "file:../node_modules/eslint-config-airbnb",
+    "eslint-plugin-import": "file:../node_modules/eslint-plugin-import",
+    "eslint-plugin-jsx-a11y": "file:../node_modules/eslint-plugin-jsx-a11y",
+    "eslint-plugin-react": "file:../node_modules/eslint-plugin-react"
+  }
+}
