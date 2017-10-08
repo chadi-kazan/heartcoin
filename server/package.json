@@ -16,7 +16,7 @@
     "jsonwebtoken": "^8.0.1",
     "koa": "^2.3.0",
     "koa-better-body": "^3.0.4",
-    "koa-combine-routers": "^0.1.1",
+    "koa-combine-routers": "next",
     "koa-context-validator": "^0.4.1",
     "koa-error": "^3.1.0",
     "koa-jwt": "^3.2.2",
